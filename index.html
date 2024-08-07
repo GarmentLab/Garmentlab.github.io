@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation.">
+  <meta name="keywords" content="Garment, manipulation, fabrics">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation</h1>
+          <div class="is-size-5 publication-authors">
+
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=" "
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=" "
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href=" "
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/GarmentLab/GarmentLab"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Docs Link. -->
+              <span class="link-block">
+                <a href="https://garmentlab.readthedocs.io/en/latest/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa-solid fa-book" aria-hidden="true"></i>
+                  </span>
+                  <span>Docs</span>
+                  </a>
+              </span>
+              <!-- Realworldbenchmark Link. -->
+              <span class="link-block">
+                <a href="https://garmentlab.readthedocs.io/en/latest/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                  </span>
+                  <span>RealBench</span>
+                  </a>
+              </span>
+              
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/UniDoorManip/UniDoorManip?tab=readme-ov-file#dataset"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body" style="padding-bottom: 20px;">
+      <img src="./static/images/pipeline.png"/>
+      <br>
+      <br>
+      <p style="text-align:justify!important;">
+        <b>GarmentLab</b> provides realistic simulation for diverse garments with different physical propoerties, benchmarking various novel garment manipulation tasks in both simulation and the real world. 
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths" style="padding-top: 20px;">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Manipulating garments and fabrics has long been a critical endeavor in the development of home-assistant robots. However, due to complex dynamics and topological structures, garment manipulations pose significant challenges. Recent successes in reinforcement learning and vision-based methods offer promising avenues for learning garment manipulation. Nevertheless, these approaches are severely constrained by current benchmarks, which exhibit offer limited diversity of tasks and unrealistic simulation behavior. Therefore, we present \textbf{GarmentLab}, a content-rich benchmark and realistic simulation designed for deformable object and garment manipulation. Our benchmark encompasses a diverse range of garment types, robotic systems and manipulators. The abundant tasks in the benchmark further explores of the interactions between garments, deformable objects, rigid bodies, fluids, and human body. Moreover, by incorporating multiple simulation methods such as FEM and PBD, along with our proposed sim-to-real algorithms and real-world benchmark, we aim to significantly narrow the sim-to-real gap. We evaluate state-of-the-art vision methods, reinforcement learning, and imitation learning approaches on these tasks, highlighting the challenges faced by current algorithms, notably their limited generalization capabilities. Our proposed open-source environments and comprehensive analysis show promising boost to future research in garment manipulation by unlocking the full potential of these methods. We guarantee that we will open-source our code as soon as possible. You can watch the videos in supplementary files to learn more about the details of our work. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="./static/videos/ID_7401.mp4"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
+   </div>
+ </div>
+
+
+
+
+   <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">GarmentLab Environment</h2>
+        <hr style="margin-top:0px">
+
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b>The Architecture of GarmentLab</b></h3>
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/fu_pipeline.png"/>
+            <p class="is-bold"></p>
+          </div>
+          <p style="text-align:justify!important;">
+            Built on PhysX5, our environment supports various simulation methods. (<b>Middle</b>) Our environment can deliver realistic simulations of diverse robots, garments, and interactions between multiple physics media. (<b>Right</b>) Subsequently, we can utilize these assets to construct tasks across various categories. (<b>Bottom</b>) The framework supports real-world deployment
+          </p>
+        </div>
+        
+        <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b>GarmentLab Physics</b></h3>
+        <div class="container is-max-desktop">
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/physics.png"/>
+            <p class="is-bold"></p>
+          </div>
+          <p style="text-align:justify!important;">
+            GarmentLab explores the potential of different simulation methods, and provides different physical parameters, modeling the distinct properties of different materials in the real world
+          </p>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/1.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/2.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+            <img src="./static/images/3.gif"/>
+            <p class="is-bold"></p>
+          </div>
+          
+
+        </div>
+
+      </div>
+    </div>
+   </div>
+
+   <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">GarmentLab Benchmark</h2>
+      <hr style="margin-top:0px">
+
+      <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b>Diverse Tasks of GarmentLab Benchmark</b></h3>
+      <div class="container is-max-desktop">
+        <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+          <img src="./static/images/benchmark.png"/>
+          <p class="is-bold"></p>
+        </div>
+        <p style="text-align:justify!important;">
+          We introduced 20 garment and deformable manipulation tasks including complicated long-horizon tasks. The last row shows the execution of these tasks in the real world
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Real-World Benchmark</h2>
+      <hr style="margin-top:0px">
+
+      <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b></b></h3>
+      <div class="container is-max-desktop">
+        <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+          <img src="./static/images/realbench.png"/>
+          <p class="is-bold"></p>
+        </div>
+        <p style="text-align:justify!important;">
+          Part a demonstrates the whole pipeline of converting real-world objects into simulation assets. Part b demonstrates the performance of different categories of objects in both simulation and the real world (the first row), and the results of these objects being manipulated by the robot (the second row).
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Sim2Real Framework</h2>
+      <hr style="margin-top:0px">
+
+      <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b></b></h3>
+      <div class="container is-max-desktop">
+        <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+          <img src="./static/images/sim2real.png"/>
+          <p class="is-bold"></p>
+        </div>
+        <p style="text-align:justify!important;">
+          On the left, we highlight our MoveIt and teleoperation pipeline, a lightweight and easy-to-deploy system built using ROS. On the right, we present our three proposed visual sim-to-real algorithms, demonstrating a significant improvement in model performance after deploying these algorithms.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Results</h2>
+      <hr style="margin-top:0px">
+
+      <h3 class="title is-4" style="margin-top:20px; margin-bottom:0px; color:#0d0e0e"><b>Qualitative Results</b></h3>
+      <div class="container is-max-desktop">
+        <div class="hero-body" style="padding-top: 20px; padding-bottom: 20px;">
+          <img src="./static/images/Results.png"/>
+          <p class="is-bold"></p>
+        </div>
+        <p style="text-align:justify!important;">
+          We visualize the qualitative results of the three vision-based algorithms: the left, middle, and right sections of this image correspond to the Affordance, Correspondence, and DIFT algorithms, respectively. Note that the DIFT exhibits query errors. For detailed analysis, please refer to Experiment Section.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+ </div>
+
+
+
+  
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{GarmentLab,
+  title={GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation},
+  journal={arXiv preprint arXiv:},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+  
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="xxx">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/UniDoorManip/UniDoorManip" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+           Website template borrowed
+              from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>, <a
+                href="https://peract.github.io/">PerAct</a> and <a href="https://voxposer.github.io/">VoxPoser</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
